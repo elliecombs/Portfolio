@@ -1,0 +1,388 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    /* height: 500px; */
+    background-color: rgb(249, 247, 247);
+    
+}
+
+.top {
+    /* hero */
+    background-color: rgb(19, 159, 122);
+    height: 100vh;
+    color: beige;
+    font-size: 40px;
+}
+
+footer {
+    background-color: rgb(241, 119, 176);
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+ul {
+    display: flex;
+    list-style-type:none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+    color: antiquewhite;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#typeWriter {
+    font-weight: bold;
+    color: antiquewhite;
+    display: inline;
+    border-right: 4px solid antiquewhite;
+    border-width: 10px;
+    
+    /* animation: name duration timing-function delay iter */
+    animation: blink 1s infinite;
+    animation: blink 1s infinite;
+    font-size: 90px;
+    padding-right: 8px; 
+
+}
+
+@keyframes blink {
+    40%{
+        border-right: none;
+    }
+    
+}
+
+p {
+    margin:0;
+    font-size: 30px;
+    font-weight:300;
+}
+
+.sub-text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.top-text {
+    /* Decides where typed out text goes */
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.top-area {
+    /* hero-area */
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight:300px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.top-button:hover{
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(241, 119, 176);
+}
+
+.button:active {
+    font-color: black;
+}
+
+.socials {
+    padding-bottom: 200px;
+    text-color:bisque;
+}
+
+.social {
+    margin:20px;
+    text-color:bisque;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.subsection {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 500px;
+    border-radius: 1000px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px bisque;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me{
+    font-size: 50px;
+    text-color: bisque;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{    
+    background-color: white;
+}
+
+.hero{
+    background-color:#9bce95;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex; 
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 30px ;
+}
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
+}
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    margin: 0; 
+    font-size: 30px;
+    font-weight: 300;
+}
+
+sub-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+
+#typeWriter{
+    
+    font-weight: bold;
+    color: rgb(241, 119, 176);
+    display: inline;
+    border-right: 4px solid white;
+    border-width: 10px;
+    
+    /* animation: name duration timing-function delay iter */
+    animation: blink 1s infinite;
+    animation: blink 1s infinite;
+    font-size: 90px;
+    padding-right: 8px; 
+}
+
+@keyframes blink {
+    40%{
+        border-right: none;
+    }
+    
+}
+
+.button:active {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.logo{
+    height: 100px;
+    margin: 10px;
+    border-radius: 80px;
+}
+
+.mountain-illustration{
+    width: 400px;
+}
+
+.subsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: antiquewhite;
+}
+
+.subsection-alternative
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+.headshot{
+    width: 200px;
+    border-radius: 300px;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.458);
+    margin: 10px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;  
+    }
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: rgb(241, 119, 176);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-button:hover{
+color: black;
+-webkit-transition: color 1000ms linear;
+-ms-transition: color 1000ms linear;
+transition: color 1000ms linear;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+.hamburger{
+    display: none;
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1000px){
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display: none;
+        background-color: rgb(241, 119, 176);
+        margin: 0px;
+    }
+    ul.show {
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(241, 119, 176);
+    }
+
+    .logo{
+        display: none;
+    }
+}
